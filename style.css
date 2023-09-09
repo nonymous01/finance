@@ -116,13 +116,14 @@ ul li a{
     color: white;
     font-size: 30px;
     font-family: 'Iceberg', cursive;;
-
+    left: 60px;
 }
 button{
     width: 12vw;
     height: 40px;
     border-radius: 100px;
     background-color: rgb(5, 207, 55);
+    border: none;
 
 }
 .txt2{

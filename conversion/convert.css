@@ -71,66 +71,31 @@ ul li a{
 }
 .cont{
     width: 100%;
-    height: 240px;
+    height: 100px;
     position: relative;
     display: flex;
-    gap: 142px;
+    gap: 42px;
     justify-content: center;
-}
-.cont1{
-    width: 100%;
-    height: 200px;
-    position: relative;
-    display: flex;
-    gap: 142px;
-    justify-content: center;
-    top: 50px;
 }
 
-.cont2{
-    width: 100%;
-    height: 200px;
-    position: relative;
-    display: flex;
-    gap: 142px;
-    justify-content: center;
-    top: 100px;
-}
 
-.cont3{
-    width: 100%;
-    height: 200px;
-    position: relative;
-    display: flex;
-    gap: 142px;
-    justify-content: center;
-    top: 150px;
-}
-.cont4{
-    width: 100%;
-    height: 200px;
-    position: relative;
-    display: flex;
-    gap: 142px;
-    justify-content: center;
-    top: 200px;
-}
+
+
 .convert{
-    width: 30%;
+    width: 15%;
     height: 100%;
     position: relative;
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 3px solid red;
 
 }
 .suivi{
-    width: 60%;
-    height: 100px;
+    width: 15%;
+    height: 80px;
     position: relative;
     top: 15%;
-    left: 15%;
-    padding-left: 123px;
+    left: 45%;
     color: white;
     transform: translate(-50% -50%);
     font-size: 4vw;
@@ -138,7 +103,7 @@ ul li a{
 
 }
 .convert1{
-    width: 30%;
+    width: 15%;
     height: 100%;
     position: relative;
     display: flex;
@@ -148,7 +113,7 @@ ul li a{
 .val{
     width: 40%;
     height: 100%;
-    font-size: 26px;
+    font-size: 15px;
    position: relative;
    overflow: hidden;
 }
@@ -160,7 +125,7 @@ ul li a{
 
 }
 .val1 img{
-    height:150px;
+    height:80px;
     float: right;
     position: relative;
     top: 20px;
@@ -168,26 +133,82 @@ ul li a{
 }
 strong{
     position: relative;
-    top: 70px;
+    top: 30px;
     color: rgb(0, 0, 0);
 }
-#coll1{
-    border: 3px solid violet;
+.inp{
+    background-color: rgb(21, 21, 56);
+    width: 100%;
+    position: relative;
+    height: 300px;
+    top: 50px;
+    justify-content: center;
+    text-align: center;
 }
 
-#coll2{
-    border: 3px solid rgb(25, 177, 37);
+.inp1 input{
+    width: 65%;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+    border-bottom: 3px solid white;
 }
 
-#coll3{
-    border: 3px solid rgb(143, 9, 72);
+.inp2 input{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: 60px;
+    left: 13%;
+    border-bottom: 3px solid white;
 }
-#coll4{
-    border: 3px solid rgb(233, 153, 5);
+
+.inp3 input{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: -1px;
+    left: -13%;
+    border-bottom: 3px solid white;
 }
-#coll5{
-    border: 3px solid rgb(56, 59, 57);
+.inp4{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    color: white;
+    left: 40%;
+    border-bottom: 3px solid white;
 }
-#coll6{
-    border: 3px solid rgb(241, 35, 149);
+.inp4 a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+.qwerty{
+    position: relative;
+    top: 40px;
+    left: 45%;
+    font-size: 2rem;
+    width: 100px; 
+    color: white;
+    height: 50px;
+}
+
+input{
+    justify-content: center;
+    text-align: center;
 }

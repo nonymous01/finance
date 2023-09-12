@@ -92,27 +92,23 @@ ul li a{
 }
 .suivi{
     width: 15%;
-    height: 220px;
+    height: 80px;
     position: relative;
     top: 15%;
     left: 45%;
     color: white;
     transform: translate(-50% -50%);
     font-size: 4vw;
-
     font-family: 'Iceberg', cursive;;
 
-}
-.suivi img{
-    height: 100%;
 }
 .convert1{
     width: 15%;
     height: 100%;
     position: relative;
-    border: 3px solid red;
     display: flex;
     background-color: white;
+    border: 3px solid red;
 }
 .val{
     width: 40%;
@@ -160,6 +156,63 @@ strong{
     top: 30px;
     border-bottom: 3px solid white;
 }
+.inp11 {
+    width: 69%;
+    height: 220px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 30px;
+    left: 18%;
+    border-bottom: 3px solid white;
+}
+
+.ssh{
+    position: relative;
+    height: 45px;
+    width: 70%;
+    left: 12%;
+    top: 50px;
+    border-radius: 50px;
+
+    background-color: #000000;
+    border-bottom: 3px solid white;
+
+}
+.ssh1{
+    position: relative;
+    top: 140px;
+    width: 25%;
+    height: 45px;
+    left: -13%;
+    background-color: #000000;
+    border-bottom: 3px solid white;
+    border-radius: 50px;
+
+}
+.ssh2{
+    position: relative;
+    top: 90px;
+    width: 25%;
+    height: 45px;
+    left: -24%;
+    background-color: #000000;
+    border-bottom: 3px solid white;
+    border-radius: 50px;
+
+}
+.aaa{
+    height: 100%;
+    position: relative;
+    width: 80%;
+    border-radius: 50px;
+    background-color: rgb(150, 240, 32);
+    left: 100px;
+
+}
+
 
 .inp2 input{
     width: 20%;

@@ -16,6 +16,16 @@ body{
     overflow: hidden;
     
 }
+.aze{
+    display: none;
+}
+.aze input{
+    display: none;
+}
+.aze .hgfd{
+    display: none;
+}
+
 
 .element1{
     position: relative;
@@ -442,29 +452,57 @@ button{
         height: 70px;
         position: relative;
         top: -22px;
+        
     
     }
-    .element2 a{
-        font-size: 14px;
+    .aze{
+        width: 50px;
+        height: 30px;
+        background-color: rgb(100, 114, 114);
         position: relative;
-        top: 10px;
-        left: -50px;
-        font-family: 'Iceberg', cursive;;
-    
+        left: 230px;
+        top: 22px;
+        display: block;
+    }
+    .aze input{
+        display: none;
+    }
+    .aze input{
+        display:none;
+    }
+    .aze .hgfd{
+        display: block;
+    }
+    .qsdfghj{.aze{
+        display: none;
+    }
+        display: none;
+    }
+    .hgfd{
+        background-color: rgba(5, 16, 41, 0.479);
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+    }
+    .hgfd  li a{
+        text-decoration: none;
+    }
+    #berg:checked  ~ .hgfd{
+        visibility: visible;
+        
     }
     ul li a{
         color: white;
         text-decoration: none;
-        
-    
     }
+    
     .element3{
-        background-color: rgb(0, 0, 0);
+         background-color: rgb(0, 0, 0);
         width: 16%;
         height: 70px;
         overflow: hidden;
         position: relative;
-        top: -22px;
+        top: -22px; 
     
     }
     .element3 a{

@@ -15,7 +15,15 @@ body{
     text-align: center;
     padding-top: 20px;
 }
-
+.bergb{
+    display: none;
+}
+.bergb input{
+    display: none;
+}
+.bergb .hgfd{
+    display: none;
+}
 
 .element1{
     position: relative;
@@ -201,6 +209,49 @@ strong{
         gap: 22px;
         justify-content: center;
     }
+    .supp{
+        display: none;
+    }
+    .element3{
+        display: none;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.473);
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
     .cont1{
         width: 100%;
         height: 200px;
@@ -309,6 +360,49 @@ strong{
         box-sizing: border-box;
         background-color: rgb(21, 21, 56);
     
+    }
+    .supp{
+        display: none;
+    }
+    .element3{
+        display: none;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.473);
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
     }
     
     .navbar{
@@ -492,7 +586,43 @@ strong{
         background-color: rgb(21, 21, 56);
     
     }
-    
+    .bergb{
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.473);
+        position: relative;
+        top: 22px;
+        left: 80%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
     .navbar{
         width: 100%;
         height: 60px;
@@ -516,8 +646,7 @@ strong{
         position: relative;
         top: 25px;
         text-decoration: none;
-        color: white;
-
+        color: rgb(255, 255, 255);
     }
     
     .element2{
@@ -551,11 +680,7 @@ strong{
     
     }
     .element3 a{
-        position: relative;
-        top: 25px;
-        font-size: 12px;
-        text-decoration: none;
-        color: white;
+        display: none;
     
     }
     .cont{
@@ -608,15 +733,14 @@ strong{
       display: none;
     }
     .suivi{
-        width: 60%;
+        width: 65%;
         height: 100px;
         position: relative;
-        top: 15%;
-        left: -10%;
-        padding-left: 123px;
+        top: 26px;
+        left: -25%;
         color: white;
         transform: translate(-50% -50%);
-        font-size: 4vw;
+        font-size: 5vw;
         font-family: 'Iceberg', cursive;;
     
     }
@@ -653,6 +777,12 @@ strong{
         top: 40px;
         font-size: 19px;
         color: rgb(0, 0, 0);
+    }
+    .supp{
+        display: none;
+    }
+    .element3{
+        display: none;
     }
   
 }

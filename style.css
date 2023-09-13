@@ -488,7 +488,7 @@ button{
         text-decoration: none;
     }
     #berg:checked  ~ .hgfd{
-        visibility: visible;
+        visibility: visible; 
         
     }
     ul li a{

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./convert.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+    <script src="../Jscript/cryto.js" defer></script>
+
 </head>
 <body>
     <!-- la navbar -->
@@ -15,14 +17,16 @@
         <div class="element2">
             <ul>
                 <li>
-                    <a href="../index.html">Accueil</a>
+                    <a href="../acceuil_com/connect.html">Accueil</a>
                     <a href="../valeur/valeur.html">Valeur</a>
+                    <a href="../Actualité/Actualite.html">Actualité</a>
+                    <a href="../conversion/convert.html">Compte</a>
                     <a href="../achat/achat.html">Acheté</a>
                 </li>
             </ul>
         </div>
         <div class="element3">
-            <a href="">Connexion</a>
+            <a href="" id="affich"></a>
         </div>
     </div>
         <!-- fin de la navbar -->
@@ -64,12 +68,32 @@
         </div>
     </div>
     <div class="inp">
-        <div class="inp1"><input type="text" placeholder="Numero bancaire"></div>
+        <div class="inp1"><input type="text" placeholder="Numero bancaire" id="montantCrypto"></div>
         <div class="qwerty">Ou</div>
         <div class="inp1"><input type="text" placeholder="Votre adresse de portefeuille"></div>
-        <div class="inp2"><input type="text" placeholder="Numero"></div>
-        <div class="inp3"><input type="text" placeholder="Numero"></div>
-        <div class="inp4"><a href="../effectuer/efectuer.html">Confirme</a></div>
+        <div class="inp2"><input type="number" placeholder="nombre de m"></div>
+        <div class="inp3">
+            <select name="" id="bit">
+                <option value="tron" data-taux="0.035">TRON (TRX)</option>
+                <option value="bitcoin" data-taux="43000">Bitcoin (BTC)</option>
+                <option value="ethereum" data-taux="3000">Ethereum (ETH)</option>
+                <option value="tron" data-taux="0.035">TRON (TRX)</option>
+                <option value="bitcoin" data-taux="43000">Bitcoin (BTC)</option>
+                <option value="ethereum" data-taux="3000">Ethereum (ETH)</option>
+                <option value="tron" data-taux="0.035">TRON (TRX)</option>
+                <option value="bitcoin" data-taux="43000">Bitcoin (BTC)</option>
+                <option value="ethereum" data-taux="3000">Ethereum (ETH)</option>
+                <option value="tron" data-taux="0.035">TRON (TRX)</option>
+                <option value="bitcoin" data-taux="43000">Bitcoin (BTC)</option>
+                <option value="ethereum" data-taux="3000">Ethereum (ETH)</option>
+                <!-- Ajoutez d'autres crypto-monnaies avec leurs taux de conversion ici -->
+            </select>
+            
+            <!-- <select name="" id="bit1"></select> -->
+
+        </div>
+        <div class="inp4"><a href="" id="confirme">Confirme</a></div>
+        <div id="resultat"></div>
 
     </div>
     

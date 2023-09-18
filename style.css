@@ -5,7 +5,16 @@ body{
     background-color: rgb(15, 15, 32);
 
 }
-
+.ban{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    height: 100px;
+}
+.ban img{
+    position: relative;
+    height: 100%;
+}
 .navbar{
     width: 100%;
     height: 60px;
@@ -16,15 +25,7 @@ body{
     overflow: hidden;
     
 }
-.aze{
-    display: none;
-}
-.aze input{
-    display: none;
-}
-.aze .hgfd{
-    display: none;
-}
+
 
 
 .element1{
@@ -44,6 +45,15 @@ body{
     font-family: 'Iceberg', cursive;;
     
 
+}
+.bergb{
+    display: none;
+}
+.bergb input{
+    display: none;
+}
+.bergb .hgfd{
+    display: none;
 }
 
 .element2{
@@ -247,6 +257,9 @@ button{
     text-decoration: none;
     color: white;
 }
+.vvvv{
+    display: none;
+}
 
 
 @media screen and (min-width:600px) and (max-width:1000px) {
@@ -265,6 +278,9 @@ button{
     .azerty{
         width: 70%;
         height: 100%;
+    }
+    .ban{
+       display: none;
     }
     
     .azerty2{
@@ -405,7 +421,9 @@ button{
         text-align: start;
         font-size: 10px;
     }
-    
+    .vvvv{
+        display: none;
+    }
     .ww a{
         text-decoration: none;
         color: white;
@@ -435,7 +453,9 @@ button{
         top: -22px;
     
     }
-  
+    .ban{
+        display: none;
+     }
     .element1 a{
         position: relative;
         top: 25px;
@@ -467,9 +487,7 @@ button{
     .aze input{
         display: none;
     }
-    .aze input{
-        display:none;
-    }
+   
     .aze .hgfd{
         display: block;
     }
@@ -489,6 +507,7 @@ button{
     }
     #berg:checked  ~ .hgfd{
         visibility: visible; 
+        display: block;
         
     }
     ul li a{
@@ -640,7 +659,9 @@ button{
         top: 22px;
         overflow: hidden;
     }
-    
+    .vvvv{
+        display: none;
+    }
     .azerty4{
         width: 30%;
         height: 100%;
@@ -680,7 +701,11 @@ button{
 }
 
 
-@media screen and (min-width:200px) and (max-width:480px) {
+
+
+
+
+@media screen and (min-width:200px) and (max-width:479px) {
 
     .navbar{
         width: 99.7%;
@@ -691,13 +716,55 @@ button{
         padding-top: 20px;
         overflow: hidden;
     }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.473);
+        position: relative;
+        top: 22px;
+        left: 80%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        display: block;
+    }
     
-    .element1{
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .hgfd li{
+        list-style-type: none;
+    
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .ban{
+        display: none;
+     }
+    .element1{       
+         overflow: hidden;
+
         position: relative;
         background-color: #000000;
         width: 25%;
         height: 70px;
-        font-size: 16px;
+        font-size: 12px;
         top: -22px;
     
     }
@@ -710,7 +777,20 @@ button{
         font-family: 'Iceberg', cursive;;
     
     }
-    
+    .qsdfghj{
+        display: none;
+    }
+    .vvvv{
+        display: block;
+        height: 160px;
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    .vvvv img{
+        width: 100%;
+        height: 100%;
+    }
     .element2{
         background-color: rgb(0, 0, 0);
         width: 59%;
@@ -742,14 +822,7 @@ button{
     
     }
     .element3 a{
-        position: relative;
-        top: 28px;
-        font-size: 11px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Iceberg', cursive;;
-    
-    
+        display: none;
     }
     
     .formm1{
@@ -765,63 +838,36 @@ button{
     }
     
     .azerty{
-        width: 70%;
-        height: 100%;
+        display: none; 
+
     }
     
     .azerty2{
-        width: 30%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
         /* background-image: url(./image/Coinhouse_A_V_Hero_1920x1080_2306-2-removebg-preview.png); */
         background-size: 330px;
-        background-repeat: no-repeat;  
+        background-repeat: no-repeat;
     }
     .azerty2 img{
         width: 110%;
     }
+    
     .txt{
-        width: 70%;
-        height: 30%;
-        justify-content: left;
-        display: flex;
-        font-family: 'Iceberg', cursive;;
-   
+       display: none;
      }
     .txt1{
-        width: 55%;
-        height: 50px;
-        position: relative;
-        justify-content: left;
-        display: flex;
-        color: white;
-        font-size: 13px;
-        font-family: 'Iceberg', cursive;;
-        left: 60px;
-    
+        display: none;
     
     }
     button{
-        width: 25vw;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(5, 207, 55);
-        border: none;
-        font-size: 10px;
+      display: none;
         
     }
-    .txt2{
-        width: 55%;
-        height: 100px;
-        position: relative;
-        justify-content: left;
-        display: flex;
-        color: white;
-        font-size: 7px;
-        left: 60px;
-    }
+   
     
     .formm2{
-        background-color: rgb(34, 36, 59);
+         background-color: rgb(34, 36, 59); 
         width: 80%;
         position: relative;
         display: flex;
@@ -831,20 +877,10 @@ button{
         left: 10vw;
         border-radius: 50px;
         top:   0px;
-        overflow: hidden;
     }
     .formm3{
-        background-color: rgb(34, 36, 59);
-        width: 80%;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        text-align: start;
-        height: 180px;
-        left: 10vw;
-        border-radius: 50px;
-        top: 100px;
-        overflow: hidden;
+        /* background-color: rgb(34, 36, 59); */
+      display: none;
     }
     .azert{
         width: 70%;
@@ -858,9 +894,7 @@ button{
     
     }
     .azerty21 img{
-        position: relative;
-        width: 100%;
-        top: 50px;
+        display: none;
     }
     .txt22{
     
@@ -896,233 +930,16 @@ button{
         display: flex;
         justify-content: center;
         text-align: center;
-        height: 140px;
+        height: 100px;
         gap: 32px;
         color: rgb(255, 255, 255);
-        top: 200px;
+        top: 10px;
         padding-top: 22px;
         overflow: hidden;
     }
     .ww{
         text-align: start;
-        font-size: 10px;
-    }
-    
-    .ww a{
-        text-decoration: none;
-        color: white;
-    }
-    
-}
-
-
-@media screen and (min-width:240px) and (max-width:400px) {
-
-    .navbar{
-        width: 109%;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding-top: 20px;
-        overflow: hidden;
-    }
-    
-    .element1{
-        position: relative;
-        background-color: #000000;
-        width: 25%;
-        height: 70px;
-        font-size: 18px;
-        top: -22px;
-    
-    }
-  
-    .element1 a{
-        position: relative;
-        top: 25px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Iceberg', cursive;;
-        
-    
-    }
-    
-    .element2{
-        background-color: rgb(0, 0, 0);
-        width: 59%;
-        height: 70px;
-        position: relative;
-        top: -22px;
-    
-    }
-    .element2 a{
-        font-size: 14px;
-        position: relative;
-        top: -4px;
-        left: -50px;
-        font-family: 'Iceberg', cursive;;
-    
-    }
-    ul li a{
-        color: white;
-        text-decoration: none;
-        
-    
-    }
-    .element3{
-        background-color: rgb(0, 0, 0);
-        width: 16%;
-        height: 70px;
-        overflow: hidden;
-        position: relative;
-        top: -22px;
-    
-    }
-    .element3 a{
-        position: relative;
-        top: 28px;
-        font-size: 12px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Iceberg', cursive;;
-        
-    
-    
-    }
-    
-    .formm1{
-        width: 75%;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        height: 320px;
-        left: 10vw;
-        border-radius: 50px;
-        top: 80px;
-    }
-    
-    .azerty{
-        width: 75%;
-        height: 100%;
-    }
-    
-    .azerty2{
-        width: 30%;
-        height: 50%;
-        width: 110%;
-        position: relative;
-        left:-20%;
-        top: 20%;
-        transform: translate(-50% -50%);
-    }
-
-   
-    .txt{
-        width: 70%;
-        height: 30%;
-        justify-content: left;
-        display: flex;
-        font-family: 'Iceberg', cursive;;
-   
-     }
-    .txt1{
-        width: 200%;
-        height: 50px;
-        position: relative;
-        justify-content: left;
-        display: flex;
-        color: white;
-        font-size: 22px;
-        font-family: 'Iceberg', cursive;;
-        left: 1px;
-        top: -123px;
-    
-    
-    }
-    button{
-        display: none;
-    }
-    .txt2{
-        width: 200%;
-        height: 100px;
-        position: relative;
-        justify-content: left;
-        display: flex;
-        color: white;
-        font-size: 22px;
-        left: 10px;
-        top: 150px;
-        
-    }
-    
-    .formm2{
-       display: none;
-    }
-    .formm3{
-        display: none;
-    }
-    #txt222{
-     display: none;
-    }
- 
-    .azert{
-       display: none;
-    }
-    .azerty21{
-        width: 70%;
-        height: 100%;
-    }
-    .azerty21 img{
-        position: relative;
-        width: 100%;
-        top: 50px;
-    }
-
-    .txt22{
-    
-        width: 70%;
-        height: 100px;
-        position: relative;
-        justify-content: left;
-        display: flex;
-        color: white;
-        font-size: 10px; 
-        left: 63px;
-        top: 22px;
-        overflow: hidden;
-    }
-    
-    .azerty4{
-        width: 30%;
-        height: 100%;
-        /* background-image: url(./image/Coinhouse_AV_Echangez_2307-removebg-preview.png); */
-        background-size: 300px;
-    }
-    .azerty4 img{
-        width: 100%;
-        position: relative;
-        top: 50px;
-    }
-    
-    .formm4{
-        background-color: rgb(0, 0, 0);
-        width: 109%;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        height: 80px;
-        gap: 32px;
-        color: rgb(255, 255, 255);
-        top: 200px;
-        padding-top: 22px;
-        overflow: hidden;
-    }
-    .ww{
-        text-align: start;
-        font-size: 5px;
+        font-size: 8px;
     }
     
     .ww a{
@@ -1134,4 +951,5 @@ button{
     }
     
 }
+
 

@@ -165,23 +165,32 @@ strong{
     width: 20%;
     height: 50px;
     font-size: 20px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 50px;
     position: relative;
     top: 60px;
-    left: 13%;
+    left: 15%;
+    color: white;
     border-bottom: 3px solid white;
 }
-
-.inp3 input{
+#resultat{
+    background-color: rgb(124, 74, 74);
+    height: 30px;
+    width: 300px;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+.inp3 {
     width: 20%;
     height: 50px;
+    display: flex;
     font-size: 20px;
-    background-color: black;
+    background-color: rgb(131, 114, 114);
     border-radius: 50px;
     position: relative;
     top: -1px;
-    left: -13%;
+    left: 23%;
     border-bottom: 3px solid white;
 }
 .inp4{
@@ -215,4 +224,21 @@ strong{
 input{
     justify-content: center;
     text-align: center;
+    background-color: blueviolet;
 }
+#bit{
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* 
+#bit1{
+    width: 50%;
+    background-color: aquamarine;
+    border-radius: 0px 50px 50px 0px;
+
+} */
+

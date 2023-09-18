@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./achat.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+    <script src="../Jscript/afficheInfo.js" defer></script>
+
 </head>
 <body>
     <!-- la navbar -->
@@ -22,7 +24,9 @@
                         <li ><a href="../acceuil_com/connect.html" >Accueil</a></li>
                         <li ><a href="./valeur/valeur.html">Valeur</a></li>
                         <li><a href="../conversion/convert.html">Convertir</a></li>
-                        <li><a href="" id="ddd">Connexion</a></li>
+                        <a href="../conversion/convert.html">Compte</a>
+
+                        <li><a href="" id="affich"></a></li>
                     </ul>
                 </div>
             </div>
@@ -30,12 +34,14 @@
                 <li>
                     <a href="../acceuil_com/connect.html">Accueil</a>
                     <a href="../conversion/convert.html">Convertir</a>
+                    <a href="../conversion/convert.html">Compte</a>
+                    <a href="../Actualité/Actualite.html">Actualité</a>
                     <a href="../valeur/valeur.html">Valeur</a>
                 </li>
             </ul>
         </div>
         <div class="element3">
-            <a href="" id="ddd">Connexion</a>
+            <a href="" id="affich"></a>
         </div>
     </div>
         <!-- fin de la navbar -->
@@ -87,8 +93,12 @@
         </div>
         <div class="qwerty">Ou</div>
         <div class="inp1"><input type="text" placeholder="Votre adresse de portefeuille"></div>
-        <div class="inp2"><input type="text" placeholder="Numero"></div>
-        <div class="inp3"><input type="text" placeholder="Numero"></div>
+        <div class="crip">
+            <!-- <div class="inp2"><input type="text" placeholder="cripto1"></div> -->
+        <div class="inp3"><input type="text" placeholder="cripto"  id="conve1"></div>
+        <div class="inp3"><input type="text" placeholder="cripto1" id="conve"></div>
+        </div>
+        
         <div class="inp4"><a href="../effectuer/efectuer.html">Confirme</a></div>
 
     </div>

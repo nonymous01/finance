@@ -17,6 +17,7 @@ body{
     
 }
 
+
 .element1{
     position: relative;
     background-color: #000000;
@@ -251,6 +252,9 @@ button{
         border-radius: 50px;
         top: 80px;
     }
+    .ban{
+        display: none;
+    }
     
     .azerty{
         width: 70%;
@@ -415,7 +419,9 @@ button{
         padding-top: 20px;
         overflow: hidden;
     }
-    
+    .ban{
+       display: none;
+    }
     .element1{
         position: relative;
         background-color: #000000;
@@ -663,6 +669,9 @@ button{
         top: -22px;
     
     }
+    .ban{
+        display: none;
+     }
   
     .element1 a{
         position: relative;
@@ -889,7 +898,9 @@ button{
         padding-top: 20px;
         overflow: hidden;
     }
-    
+    .ban{
+        display: none;
+     }
     .element1{
         position: relative;
         background-color: #000000;

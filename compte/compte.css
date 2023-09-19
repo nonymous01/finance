@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 5, 32);
+    
+
+}
+.bergb{
+    display: none;
+}
+.bergb input{
+    display: none;
+}
+.bergb .hgfd{
+    display: none;
+}
+.compte{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 40px;
+    position: relative;
+}
+.compte img{
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.element1{
+    position: relative;
+    background-color: #000000;
+    width: 25%;
+    height: 70px;
+    font-size: 32px;
+    top: -22px;
+}
+.element1 a{
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.element2{
+    background-color: rgb(0, 0, 0);
+    width: 59%;
+    height: 70px;
+    position: relative;
+    top: -22px;
+
+}
+.element2 a{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: -50px;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 3rem;
+
+}
+.element3{
+    width: 16%;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    top: -22px;
+
+}
+.element3 a{
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+h3{
+    color: white;
+}
+h2{
+    color: rgb(17, 196, 62);
+}
+.compte{
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-family: 'Iceberg', cursive;;
+    font-size: 50px;
+    position: relative;
+    top: 73px;
+}
+.solde{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 112px;
+    height: 100px;
+
+}
+.solde1{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    font-size: 22px;
+    font-family: 'Iceberg', cursive;;
+
+
+}
+.solde2{
+    position: relative;
+    width: 100%;
+    font-family: 'Iceberg', cursive;;
+    text-align: center;
+    height: 50%;
+   
+
+}
+
+.conv{
+    background-color: rgb(0, 0, 0);
+    width: 15%;
+    border: 3px solid white;
+    position: relative;
+    height: 70px;
+    left: 28%;
+    top: 120px;
+    justify-content: center;
+    text-align: center;
+}
+
+.conv1{
+    background-color: rgb(0, 0, 0);
+    width: 15%;
+    height: 70px;
+    position: relative;
+    left: 57%;
+    top: 40px;
+    border: 3px solid white;
+    justify-content: center;
+    text-align: center;
+    
+}
+.conv1 p{
+    color: white;
+    position: relative;
+    top: 10px;
+    font-family: 'Iceberg', cursive;;
+}
+
+.conv p{
+    color: white;
+    position: relative;
+    top: 10px;
+    font-family: 'Iceberg', cursive;;
+}

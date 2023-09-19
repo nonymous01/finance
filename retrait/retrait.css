@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(21, 21, 56);
+    background-color: rgb(7, 5, 32);
 
 }
 .bergb{
@@ -14,7 +14,17 @@ body{
 .bergb .hgfd{
     display: none;
 }
-
+.compte{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 40px;
+    position: relative;
+}
+.compte img{
+    height: 100%;
+}
 .navbar{
     width: 100%;
     height: 60px;
@@ -79,6 +89,7 @@ ul li a{
 
 }
 .cont{
+    background-color: rgb(7, 5, 32);
     width: 100%;
     height: 100px;
     position: relative;
@@ -147,7 +158,6 @@ strong{
     color: rgb(0, 0, 0);
 }
 .inp{
-    background-color: rgb(21, 21, 56);
     width: 100%;
     position: relative;
     height: 300px;
@@ -325,6 +335,7 @@ ul li a{
 .cont{
     width: 100%;
     height: 150px;
+    background-color: rgb(7, 5, 32);
     position: relative;
     display: flex;
     gap: 42px;
@@ -576,6 +587,7 @@ strong{
     
     }
     .cont{
+        background-color: rgb(7, 5, 32);
         width: 100%;
         height: 150px;
         position: relative;
@@ -750,6 +762,7 @@ strong{
             display: flex;
             gap: 42px;
             justify-content: center;
+            background-color: rgb(7, 5, 32);
         }
         
         

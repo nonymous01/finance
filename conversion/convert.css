@@ -173,8 +173,18 @@ strong{
     color: white;
     border-bottom: 3px solid white;
 }
+.inpp{
+    position: relative;
+    width: 10%;
+    overflow: hidden;
+    display: flex;
+    left: 46%;
+    top: 120px;
+    flex-direction: column;
+    justify-content: center;
+}
 #resultat{
-    background-color: rgb(124, 74, 74);
+    background-color: rgb(145, 54, 54);
     height: 30px;
     width: 300px;
     color: white;
@@ -197,7 +207,7 @@ strong{
     width: 20%;
     height: 50px;
     font-size: 20px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 50px;
     position: relative;
     top: 20px;

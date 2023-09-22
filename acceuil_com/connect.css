@@ -16,7 +16,15 @@ body{
     overflow: hidden;
     
 }
-
+.bergb{
+    display: none;
+}
+.bergb input{
+    display: none;
+}
+.bergb .hgfd{
+    display: none;
+}
 
 .element1{
     position: relative;
@@ -128,6 +136,36 @@ ul li a{
     left: 60px;
 
 
+}
+.monnais{
+    width: 100%;
+    height: 250px;
+    top: 300px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.ima{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.doc1{
+    width: 50%;
+    overflow: hidden;
+}
+.doc2{
+    width: 50%;
+    color: white;
+    overflow: hidden;
+}
+h4{
+    position: relative;
+    top: 30px;
 }
 button{
     width: 12vw;
@@ -256,6 +294,9 @@ button{
         display: none;
     }
     
+    .monnais{
+       display: none;
+    }
     .azerty{
         width: 70%;
         height: 100%;
@@ -404,6 +445,49 @@ button{
         text-decoration: none;
         color: white;
     }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
+    }
     
 }
 
@@ -418,6 +502,9 @@ button{
         text-align: center;
         padding-top: 20px;
         overflow: hidden;
+    }
+    .monnais{
+      display: none;
     }
     .ban{
        display: none;
@@ -643,6 +730,49 @@ button{
     .ww a{
         text-decoration: none;
         color: white;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
     }
     
 }
@@ -883,6 +1013,49 @@ button{
         text-decoration: none;
         color: white;
     }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
+    }
     
 }
 
@@ -1006,11 +1179,11 @@ button{
         position: relative;
         justify-content: left;
         display: flex;
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 22px;
         font-family: 'Iceberg', cursive;;
         left: 1px;
-        top: -123px;
+        top: -13px;
     
     
     }
@@ -1106,5 +1279,80 @@ button{
         font-size: 10px;
     }
     
+    .monnais{
+        width: 100%;
+        height: 250px;
+        top: 100px;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .ima{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .doc1{
+        width: 50%;
+        overflow: hidden;
+    }
+    .doc2{
+        width: 50%;
+        color: white;
+
+        overflow: hidden;
+    }
+    h4{
+        position: relative;
+        top: 15px;
+        font-size: 11px;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
+    }
 }
 

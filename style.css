@@ -5,16 +5,7 @@ body{
     background-color: rgb(15, 15, 32);
 
 }
-.ban{
-    position: relative;
-    text-align: center;
-    top: 200px;
-    height: 100px;
-}
-.ban img{
-    position: relative;
-    height: 100%;
-}
+
 .navbar{
     width: 100%;
     height: 60px;
@@ -25,8 +16,15 @@ body{
     overflow: hidden;
     
 }
-
-
+.bergb{
+    display: none;
+}
+.bergb input{
+    display: none;
+}
+.bergb .hgfd{
+    display: none;
+}
 
 .element1{
     position: relative;
@@ -45,15 +43,6 @@ body{
     font-family: 'Iceberg', cursive;;
     
 
-}
-.bergb{
-    display: none;
-}
-.bergb input{
-    display: none;
-}
-.bergb .hgfd{
-    display: none;
 }
 
 .element2{
@@ -147,6 +136,36 @@ ul li a{
     left: 60px;
 
 
+}
+.monnais{
+    width: 100%;
+    height: 250px;
+    top: 300px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.ima{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.doc1{
+    width: 50%;
+    overflow: hidden;
+}
+.doc2{
+    width: 50%;
+    color: white;
+    overflow: hidden;
+}
+h4{
+    position: relative;
+    top: 30px;
 }
 button{
     width: 12vw;
@@ -257,9 +276,6 @@ button{
     text-decoration: none;
     color: white;
 }
-.vvvv{
-    display: none;
-}
 
 
 @media screen and (min-width:600px) and (max-width:1000px) {
@@ -274,13 +290,16 @@ button{
         border-radius: 50px;
         top: 80px;
     }
+    .ban{
+        display: none;
+    }
     
+    .monnais{
+       display: none;
+    }
     .azerty{
         width: 70%;
         height: 100%;
-    }
-    .ban{
-       display: none;
     }
     
     .azerty2{
@@ -421,12 +440,53 @@ button{
         text-align: start;
         font-size: 10px;
     }
-    .vvvv{
-        display: none;
-    }
+    
     .ww a{
         text-decoration: none;
         color: white;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
     }
     
 }
@@ -443,7 +503,12 @@ button{
         padding-top: 20px;
         overflow: hidden;
     }
-    
+    .monnais{
+      display: none;
+    }
+    .ban{
+       display: none;
+    }
     .element1{
         position: relative;
         background-color: #000000;
@@ -453,9 +518,7 @@ button{
         top: -22px;
     
     }
-    .ban{
-        display: none;
-     }
+  
     .element1 a{
         position: relative;
         top: 25px;
@@ -472,56 +535,29 @@ button{
         height: 70px;
         position: relative;
         top: -22px;
-        
     
     }
-    .aze{
-        width: 50px;
-        height: 30px;
-        background-color: rgb(100, 114, 114);
+    .element2 a{
+        font-size: 14px;
         position: relative;
-        left: 230px;
-        top: 22px;
-        display: block;
-    }
-    .aze input{
-        display: none;
-    }
-   
-    .aze .hgfd{
-        display: block;
-    }
-    .qsdfghj{.aze{
-        display: none;
-    }
-        display: none;
-    }
-    .hgfd{
-        background-color: rgba(5, 16, 41, 0.479);
-        visibility: hidden;
-        opacity: 1;
-        position: fixed;
-    }
-    .hgfd  li a{
-        text-decoration: none;
-    }
-    #berg:checked  ~ .hgfd{
-        visibility: visible; 
-        display: block;
-        
+        top: 10px;
+        left: -50px;
+        font-family: 'Iceberg', cursive;;
+    
     }
     ul li a{
         color: white;
         text-decoration: none;
-    }
+        
     
+    }
     .element3{
-         background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
         width: 16%;
         height: 70px;
         overflow: hidden;
         position: relative;
-        top: -22px; 
+        top: -22px;
     
     }
     .element3 a{
@@ -659,9 +695,7 @@ button{
         top: 22px;
         overflow: hidden;
     }
-    .vvvv{
-        display: none;
-    }
+    
     .azerty4{
         width: 30%;
         height: 100%;
@@ -697,32 +731,12 @@ button{
         text-decoration: none;
         color: white;
     }
-    
-}
-
-
-
-
-
-
-@media screen and (min-width:200px) and (max-width:479px) {
-
-    .navbar{
-        width: 99.7%;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding-top: 20px;
-        overflow: hidden;
-    }
     .bergb{
         width: 50px;
         height: 30px;
-        background-color: rgba(0, 0, 0, 0.473);
         position: relative;
         top: 22px;
-        left: 80%;
+        left: 90%;
         display: block;
     } 
      .bergb input{
@@ -736,16 +750,19 @@ button{
         opacity: 1;
         position: fixed;
         right: 10px;
-        display: block;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
     }
-    
+   
     .hgfd li a{
         text-decoration: none;
-        font-size: 10px;
+        font-size: 20px;
     }
     .hgfd li{
         list-style-type: none;
-    
+
     }
     #berg:checked ~ .hgfd{
         visibility: visible;
@@ -754,20 +771,37 @@ button{
     #ddd{
         display: none;
     }
-    .ban{
+    .qsdfghj{
         display: none;
-     }
-    .element1{       
-         overflow: hidden;
+    }
+    
+}
 
+
+@media screen and (min-width:200px) and (max-width:480px) {
+
+    .navbar{
+        width: 99.7%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    
+    .element1{
         position: relative;
         background-color: #000000;
         width: 25%;
         height: 70px;
-        font-size: 12px;
+        font-size: 16px;
         top: -22px;
     
     }
+    .ban{
+        display: none;
+     }
   
     .element1 a{
         position: relative;
@@ -777,20 +811,7 @@ button{
         font-family: 'Iceberg', cursive;;
     
     }
-    .qsdfghj{
-        display: none;
-    }
-    .vvvv{
-        display: block;
-        height: 160px;
-        width: 50%;
-        position: relative;
-        left: 25%;
-    }
-    .vvvv img{
-        width: 100%;
-        height: 100%;
-    }
+    
     .element2{
         background-color: rgb(0, 0, 0);
         width: 59%;
@@ -822,7 +843,14 @@ button{
     
     }
     .element3 a{
-        display: none;
+        position: relative;
+        top: 28px;
+        font-size: 11px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Iceberg', cursive;;
+    
+    
     }
     
     .formm1{
@@ -838,36 +866,63 @@ button{
     }
     
     .azerty{
-        display: none; 
-
+        width: 70%;
+        height: 100%;
     }
     
     .azerty2{
-        width: 70%;
-        height: 70%;
+        width: 30%;
+        height: 50%;
         /* background-image: url(./image/Coinhouse_A_V_Hero_1920x1080_2306-2-removebg-preview.png); */
         background-size: 330px;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;  
     }
     .azerty2 img{
         width: 110%;
     }
-    
     .txt{
-       display: none;
+        width: 70%;
+        height: 30%;
+        justify-content: left;
+        display: flex;
+        font-family: 'Iceberg', cursive;;
+   
      }
     .txt1{
-        display: none;
+        width: 55%;
+        height: 50px;
+        position: relative;
+        justify-content: left;
+        display: flex;
+        color: white;
+        font-size: 13px;
+        font-family: 'Iceberg', cursive;;
+        left: 60px;
+    
     
     }
     button{
-      display: none;
+        width: 25vw;
+        height: 30px;
+        border-radius: 100px;
+        background-color: rgb(5, 207, 55);
+        border: none;
+        font-size: 10px;
         
     }
-   
+    .txt2{
+        width: 55%;
+        height: 100px;
+        position: relative;
+        justify-content: left;
+        display: flex;
+        color: white;
+        font-size: 7px;
+        left: 60px;
+    }
     
     .formm2{
-         background-color: rgb(34, 36, 59); 
+        background-color: rgb(34, 36, 59);
         width: 80%;
         position: relative;
         display: flex;
@@ -877,10 +932,20 @@ button{
         left: 10vw;
         border-radius: 50px;
         top:   0px;
+        overflow: hidden;
     }
     .formm3{
-        /* background-color: rgb(34, 36, 59); */
-      display: none;
+        background-color: rgb(34, 36, 59);
+        width: 80%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        height: 180px;
+        left: 10vw;
+        border-radius: 50px;
+        top: 100px;
+        overflow: hidden;
     }
     .azert{
         width: 70%;
@@ -894,7 +959,9 @@ button{
     
     }
     .azerty21 img{
-        display: none;
+        position: relative;
+        width: 100%;
+        top: 50px;
     }
     .txt22{
     
@@ -904,7 +971,7 @@ button{
         position: relative;
         justify-content: left;
         display: flex;
-        color: rgb(255, 255, 255);
+        color: white;
         font-size: 10px; 
         left: 63px;
         top: 22px;
@@ -930,16 +997,278 @@ button{
         display: flex;
         justify-content: center;
         text-align: center;
-        height: 100px;
+        height: 140px;
         gap: 32px;
         color: rgb(255, 255, 255);
-        top: 10px;
+        top: 200px;
         padding-top: 22px;
         overflow: hidden;
     }
     .ww{
         text-align: start;
-        font-size: 8px;
+        font-size: 10px;
+    }
+    
+    .ww a{
+        text-decoration: none;
+        color: white;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width:240px) and (max-width:400px) {
+
+    .navbar{
+        width: 109%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    .ban{
+        display: none;
+     }
+    .element1{
+        position: relative;
+        background-color: #000000;
+        width: 25%;
+        height: 70px;
+        font-size: 18px;
+        top: -22px;
+    
+    }
+  
+    .element1 a{
+        position: relative;
+        top: 25px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Iceberg', cursive;;
+        
+    
+    }
+    
+    .element2{
+        background-color: rgb(0, 0, 0);
+        width: 59%;
+        height: 70px;
+        position: relative;
+        top: -22px;
+    
+    }
+    .element2 a{
+        font-size: 14px;
+        position: relative;
+        top: -4px;
+        left: -50px;
+        font-family: 'Iceberg', cursive;;
+    
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        
+    
+    }
+    .element3{
+        background-color: rgb(0, 0, 0);
+        width: 16%;
+        height: 70px;
+        overflow: hidden;
+        position: relative;
+        top: -22px;
+    
+    }
+    .element3 a{
+        position: relative;
+        top: 28px;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Iceberg', cursive;;
+        
+    
+    
+    }
+    
+    .formm1{
+        width: 75%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 320px;
+        left: 10vw;
+        border-radius: 50px;
+        top: 80px;
+    }
+    
+    .azerty{
+        width: 75%;
+        height: 100%;
+    }
+    
+    .azerty2{
+        width: 30%;
+        height: 50%;
+        width: 110%;
+        position: relative;
+        left:-20%;
+        top: 20%;
+        transform: translate(-50% -50%);
+    }
+
+   
+    .txt{
+        width: 70%;
+        height: 30%;
+        justify-content: left;
+        display: flex;
+        font-family: 'Iceberg', cursive;;
+   
+     }
+    .txt1{
+        width: 200%;
+        height: 50px;
+        position: relative;
+        justify-content: left;
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: 'Iceberg', cursive;;
+        left: 1px;
+        top: -13px;
+    
+    
+    }
+    button{
+        display: none;
+    }
+    .txt2{
+        width: 200%;
+        height: 100px;
+        position: relative;
+        justify-content: left;
+        display: flex;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+        top: 150px;
+        
+    }
+    
+    .formm2{
+       display: none;
+    }
+    .formm3{
+        display: none;
+    }
+    #txt222{
+     display: none;
+    }
+ 
+    .azert{
+       display: none;
+    }
+    .azerty21{
+        width: 70%;
+        height: 100%;
+    }
+    .azerty21 img{
+        position: relative;
+        width: 100%;
+        top: 50px;
+    }
+
+    .txt22{
+    
+        width: 70%;
+        height: 100px;
+        position: relative;
+        justify-content: left;
+        display: flex;
+        color: white;
+        font-size: 10px; 
+        left: 63px;
+        top: 22px;
+        overflow: hidden;
+    }
+    
+    .azerty4{
+        width: 30%;
+        height: 100%;
+        /* background-image: url(./image/Coinhouse_AV_Echangez_2307-removebg-preview.png); */
+        background-size: 300px;
+    }
+    .azerty4 img{
+        width: 100%;
+        position: relative;
+        top: 50px;
+    }
+    
+    .formm4{
+        background-color: rgb(0, 0, 0);
+        width: 109%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 80px;
+        gap: 32px;
+        color: rgb(255, 255, 255);
+        top: 200px;
+        padding-top: 22px;
+        overflow: hidden;
+    }
+    .ww{
+        text-align: start;
+        font-size: 5px;
     }
     
     .ww a{
@@ -950,6 +1279,80 @@ button{
         font-size: 10px;
     }
     
-}
+    .monnais{
+        width: 100%;
+        height: 250px;
+        top: 100px;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .ima{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .doc1{
+        width: 50%;
+        overflow: hidden;
+    }
+    .doc2{
+        width: 50%;
+        color: white;
 
+        overflow: hidden;
+    }
+    h4{
+        position: relative;
+        top: 15px;
+        font-size: 11px;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.438);
+        z-index: 1;
+        width: 100%;
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+    } 
+    #ddd{
+        display: none;
+    }
+    .qsdfghj{
+        display: none;
+    }
+}
 

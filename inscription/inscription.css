@@ -22,7 +22,7 @@ body{
 
 input{
     height: 50px;
-    width: 330px;
+    width: 75%;
     margin-top: 40px;
     position: relative;
     border: none;
@@ -44,6 +44,7 @@ input[type="submit"] {
     height: 50px;
     width: 63%;
     left: 19%;
+    bottom: 52px;
     margin-top: 40px;
     background-color: rgba(30, 4, 121, 0.623);
     color: white;
@@ -56,13 +57,12 @@ input[type="submit"] {
 
 
 .dev{
-    position: absolute;
-    margin-top: 90px;
-    left: 22%;
+    position: relative;
+    bottom: -80px;    
 }
 .dev a{
   color: rgb(143, 140, 140);
-  font-size: 20px;
+  font-size: 18px;
 }
 .cn{    font-size: 20px;
 
@@ -71,12 +71,85 @@ input[type="submit"] {
   color: white;
 }
 .pp{
-    position: absolute;
-    left: 27%;
+    position: relative;
+    top: 10px;
     bottom: 123px;
     font-size: 20px;
 }
 
-@media screen and (min-width:500px)  and (max-width:900px){
+@media screen and (min-width:215px)  and (max-width:620px){
+    .pri{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative; 
+        width: 100%;
+    }
+    .connexion{
+        height: 730px;
+        width: 70%;
+        text-align: center;
+        position: absolute;
+        background-color: rgba(3, 8, 17, 0.5);
+        border-radius: 25px;
+        margin-top: 120px;
+        color: white; 
+    }
+    input{
+        height: 50px;
+        width: 75%;
+        margin-top: 40px;
+        position: relative;
+        border: none;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.863);
+        border-bottom: 3px solid white;
+        border-radius: 50px;
+        font-size: 13px;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+     
+    
+    input[type="submit"] {
+        background-color: rgb(236, 224, 248);
+        border: none;
+        height: 50px;
+        width: 63%;
+        left: 19%;
+        bottom: 82px;
+       
+        background-color: rgba(30, 4, 121, 0.623);
+        color: white;
+        position: absolute;
+        border-bottom: 3px solid white;
+        border-radius: 50px;
+    
+    }
+    
+    
+    
+    .dev{
+        position: relative;
+        bottom: -60px;    
+    }
+    .dev a{
+      color: rgb(143, 140, 140);
+      font-size: 14px;
+    }
+    .cn{    
+        font-size: 18px;
+
+      margin-top: 30px;
+      color: white;
+    }
+    .pp{
+        position: relative;
+        top: 10px;
+        bottom: 123px;
+        font-size: 14px;
+    }
     
 }

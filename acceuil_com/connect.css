@@ -5,7 +5,33 @@ body{
     background-color: rgb(15, 15, 32);
 
 }
-
+button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Iceberg', cursive;;
+}
+.wwwww{
+    position: relative;
+    top: 62px;
+    left: 12%;
+    background-color: rgb(222, 225, 231);
+}
+.wwwww:hover{
+    position: relative;
+    top: 62px;
+    left: 12%;
+    box-shadow: 1px 1px 10px 1px  rgb(77, 95, 194);
+}
+.y{
+    color: rgb(6, 207, 40);
+}
+.c{
+    color: rgb(6, 207, 40);
+}
+.i{
+    color: rgb(6, 207, 40);
+}
 .navbar{
     width: 100%;
     height: 60px;
@@ -97,12 +123,14 @@ ul li a{
     height: 320px;
     left: 10vw;
     border-radius: 50px;
-    top: 80px;
+    top: 90px;
 }
 
 .azerty{
     width: 70%;
     height: 100%;
+    position: relative;
+    top: 60px;
 }
 
 .azerty2{
@@ -182,8 +210,10 @@ button{
     justify-content: left;
     display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     left: 60px;
+    font-family: 'Iceberg', cursive;;
+
 }
 
 .formm2{
@@ -240,6 +270,7 @@ button{
     font-size: 20px;
     left: 63px;
     top: 22px;
+    font-family: 'Iceberg', cursive;;
     overflow: hidden;
 }
 
@@ -266,6 +297,7 @@ button{
     color: rgb(255, 255, 255);
     top: 320px;
     padding-top: 22px;
+    font-family: 'Iceberg', cursive;;
     overflow: hidden;
 }
 .ww{
@@ -1117,7 +1149,6 @@ button{
     
     }
     .element3{
-        background-color: rgb(0, 0, 0);
         width: 16%;
         height: 70px;
         overflow: hidden;
@@ -1126,45 +1157,37 @@ button{
     
     }
     .element3 a{
-        position: relative;
-        top: 28px;
-        font-size: 12px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Iceberg', cursive;;
-        
+      display: none;
     
     
     }
     
     .formm1{
-        width: 75%;
+        width: 70%;
         position: relative;
         display: flex;
         justify-content: center;
         text-align: center;
         height: 320px;
-        left: 10vw;
-        border-radius: 50px;
+        left: 14%;
+        border-radius: 0px;
         top: 80px;
     }
     
     .azerty{
         width: 75%;
         height: 100%;
+        top:100px;
+        position: relative;
+        background-image: url(../image/homepage-buy-sell.webp);
+        background-size: 200px;
+        background-repeat: no-repeat;
     }
     
     .azerty2{
-        width: 30%;
-        height: 50%;
-        width: 110%;
-        position: relative;
-        left:-20%;
-        top: 20%;
-        transform: translate(-50% -50%);
+      display: none;
     }
 
-   
     .txt{
         width: 70%;
         height: 30%;
@@ -1174,16 +1197,16 @@ button{
    
      }
     .txt1{
-        width: 200%;
+        width: 100%;
         height: 50px;
         position: relative;
         justify-content: left;
         display: flex;
         color: rgb(255, 255, 255);
-        font-size: 22px;
-        font-family: 'Iceberg', cursive;;
-        left: 1px;
-        top: -13px;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        left: 1%;
+        top:-94px;
     
     
     }
@@ -1191,15 +1214,15 @@ button{
         display: none;
     }
     .txt2{
-        width: 200%;
+        width: 100%;
         height: 100px;
         position: relative;
         justify-content: left;
         display: flex;
         color: white;
-        font-size: 22px;
-        left: 10px;
-        top: 150px;
+        font-size: 15px;
+        left: -1%;
+        top: 200px;
         
     }
     
@@ -1297,14 +1320,13 @@ button{
     
     }
     .doc1{
-        width: 50%;
+        width: 100%;
         overflow: hidden;
+        position: relative;
+        top: 90px;
     }
     .doc2{
-        width: 50%;
-        color: white;
-
-        overflow: hidden;
+      display: none;
     }
     h4{
         position: relative;
@@ -1354,5 +1376,6 @@ button{
     .qsdfghj{
         display: none;
     }
+  
 }
 

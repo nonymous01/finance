@@ -24,7 +24,15 @@ body{
 .bergb .hgfd{
     display: none;
 }
-
+.y{
+    color: rgb(6, 207, 40);
+}
+.c{
+    color: rgb(6, 207, 40);
+}
+.i{
+    color: rgb(6, 207, 40);
+}
 .element1{
     position: relative;
     background-color: #000000;
@@ -235,6 +243,8 @@ strong{
         opacity: 1;
         position: fixed;
         right: 10px;
+        width: 100%;
+
     }
    
     .hgfd li a{
@@ -248,7 +258,7 @@ strong{
     #berg:checked ~ .hgfd{
         visibility: visible;
         display: block;
-        width: 22%;
+        width: 100%;
         z-index: 1;
         top: 90px;
         border-radius: 15px;
@@ -616,6 +626,7 @@ strong{
         opacity: 1;
         position: fixed;
         right: 10px;
+        width: 100%;
     }
    
     .hgfd li a{

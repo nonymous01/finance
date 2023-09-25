@@ -83,7 +83,15 @@ p{
     margin-left:10% ;
     color: white;
 }
-
+.y{
+   color: rgb(6, 207, 40);
+}
+.c{
+   color: rgb(6, 207, 40);
+}
+.i{
+   color: rgb(6, 207, 40);
+}
 section{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;

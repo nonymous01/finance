@@ -15,6 +15,15 @@ body{
 .bergb .hgfd{
     display: none;
 }
+.y{
+    color: rgb(6, 207, 40);
+}
+.c{
+    color: rgb(6, 207, 40);
+}
+.i{
+    color: rgb(6, 207, 40);
+}
 .compte{
     justify-content: center;
     display: flex;
@@ -169,4 +178,16 @@ h2{
     position: relative;
     top: 10px;
     font-family: 'Iceberg', cursive;;
+}
+
+.conv p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+ 
+}
+.conv1 p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }

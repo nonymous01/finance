@@ -6,7 +6,7 @@ boutton.addEventListener("click", () =>{
     let Numero = document.querySelector("#Numero").value
     let mot_de_passe = document.querySelector("#mot_de_passe").value
     let confirme_mot_de_passe = document.querySelector("#confirme_mot_de_passe").value
-
+    
 
     let user= {
         nom:nom,
@@ -18,5 +18,7 @@ boutton.addEventListener("click", () =>{
     
     userlist.push(user)
     localStorage.setItem("tab_LS", JSON.stringify(userlist))
+
+   
 })
 

@@ -1,42 +1,56 @@
-// const convtron = document.getElementById('conv-tron')
-// const convcfa = document.getElementById('conv-cfa')
+const convtron = document.getElementById('conv-tron')
+const convcfa = document.getElementById('conv-cfa')
 
 
-// convtron.addEventListener('input', ()=> {
-//     const tron = convtron.value
-//     console.log(tron)
-
-//   const taux =  convtron.getAttribute('data-taux')
-//     console.log(taux)
-
-//     const tronNombre = parseFloat(tron)
-//     console.log(tronNombre)
-
-//     const conversion = tronNombre * taux
-//     console.log(conversion)
-   
-// })
+convtron.addEventListener('input', ()=> {
+    const tron = convtron.value
+    const taux =  convtron.getAttribute('data-taux')
+    const tronNombre = parseFloat(tron)
+    const usb = 0.084
+    const conversion = tronNombre * 0.847
+    
+    let Afficher = JSON.parse(localStorage.getItem("bien")) ||[]
+    let solde = conversion
+    Afficher.push(solde)
+    localStorage.setItem("bien", JSON.stringify(Afficher))
+})
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const confirmeLink = document.getElementById('confirme');
 
-  confirmeLink.addEventListener('click', function (e) {
-      e.preventDefault(); // Empêche le lien de naviguer immédiatement
 
-      // Récupérez les valeurs nécessaires
-      const montantCryptoInput = document.getElementById('montantCrypto');
-      const convtronInput = document.getElementById('conv-tron');
-      const bit = document.getElementById('crypto');
+//  let valuelement1 = document.getElementById("#conv-tron");
+//  let valuelement2 = document.getElementById("#bit");
+//  let valuelement3 = document.getElementById("#bit1");
+//  let btnEL = document.getElementById("bit2")
+//  let convert;
+//  let convert1;
+// const convertvalue =()=>{
+//   let value1 = valuelement1.value;
+//   let value2 = valuelement2.value;
 
-      const montantCrypto = parseFloat(montantCryptoInput.value);
-      const tauxConversion = parseFloat(cryptoSelect.selectedOptions[0].getAttribute('data-taux'));
-      const conversion = montantCrypto * tauxConversion;
+//   switch(bit){
+//     case "USD":
+//       convert = value1 *2;
+//       break
+//     case "FCFA":
+//       convert = value1 *0.5;
+//       break
+//     case "GBP":
+//       convert = value1 * 4;
+//       break
+//     default:
+//       convert="0"
+//   }
+//   switch(convert1){
+//     case "tron":
+//       convert1 = 50*convert;
+//       break
+//     case "bitcoin":
+//       convert1 = 262222*convert;
+//   }
 
-      // Générez l'URL avec les paramètres de la conversion
-      const resultatURL = `compte.html?conversion=${conversion}`;
+// };
+ 
 
-      // Redirigez l'utilisateur vers la nouvelle page avec l'URL générée
-      window.location.href = resultatURL;
-  });
-});
+// btnEL.addEventListener("click", convertvalue )
+

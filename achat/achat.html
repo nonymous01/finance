@@ -88,18 +88,25 @@
             <div class="aaa">
                 <input type="text" placeholder="Numero de compte" class="ssh">
                 <input type="text" placeholder="Cvv" class="ssh1">
-                <input type="text" placeholder="Date D'expiration" class="ssh2">
+                <input type="datetime" placeholder="Date D'expiration" class="ssh2">
             </div>
         </div>
         <div class="qwerty">Ou</div>
         <div class="inp1"><input type="text" placeholder="Votre adresse de portefeuille"></div>
         <div class="crip">
             <!-- <div class="inp2"><input type="text" placeholder="cripto1"></div> -->
-        <div class="inp3"><input type="text" placeholder="cripto"  id="conve1"></div>
-        <div class="inp3"><input type="text" placeholder="cripto1" id="conve"></div>
+        <div class="inp3">
+            <select name="" id="bit">
+                <option value="tron" data-taux="50">TRON (TRX)</option>
+                <option value="bitcoin" data-taux="43000">Bitcoin (BTC)</option>
+                <option value="ethereum" data-taux="3000">Ethereum (ETH)</option>
+                <!-- Ajoutez d'autres crypto-monnaies avec leurs taux de conversion ici -->
+            </select>
+        </div>
+        <div class="inp3"><input type="number" placeholder="nombre de monnaie" id="conve"></div>
         </div>
         
-        <div class="inp4"><a href="../effectuer/efectuer.html">Confirme</a></div>
+        <div class="inp4"><a href="../achat_effectuer/conversion_effec.html">Confirme</a></div>
 
     </div>
     

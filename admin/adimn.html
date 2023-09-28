@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table HTML avec CSS</title>
+    <script src="../Jscript/admin.js" defer></script>
+
+    <style>
+        /* Styles CSS pour la table */
+        table {
+            width: 80%; /* Largeur de la table */
+            border-collapse: collapse; /* Fusionner les bordures de cellules */
+            margin: 20px auto; /* Centrer la table sur la page */
+            border: 2px solid #792c2c; /* Bordure autour de la table */
+        }
+
+        th, td {
+            border: 1px solid #333; /* Bordure autour des cellules */
+            padding: 10px; /* Espace à l'intérieur des cellules */
+            text-align: center; /* Alignement du texte au centre */
+        }
+
+        th {
+            background-color: #333; /* Couleur de fond pour les cellules d'en-tête */
+            color: #fff; /* Couleur du texte pour les cellules d'en-tête */
+        }
+    </style>
+</head>
+<body>
+  <div class="info_ad">
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Email</th>
+                <th>Numéro de téléphone</th>
+                <th>Mot de passe</th>
+                <th>Confirmer le mot de passe</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anonymous</td>
+                <td>Anonymous@example.com</td>
+                <td>123-456-7890</td>
+                <td>********</td>
+                <td>********</td>
+            </tr>
+            <!-- Ajoutez ici d'autres lignes pour d'autres utilisateurs si nécessaire -->
+        </tbody>
+    </table>
+  </div>
+</body>
+</html>

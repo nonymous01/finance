@@ -1,0 +1,12 @@
+  /* Styles CSS pour la table */
+  table {
+    width: 400px; /* Largeur de la table */
+    border-collapse: collapse; /* Fusionner les bordures de cellules */
+    margin: 20px auto; /* Centrer la table sur la page */
+}
+
+th, td {
+    border: 1px solid black; /* Bordures de cellules */
+    padding: 10px; /* Espace à l'intérieur des cellules */
+    text-align: center; /* Alignement du texte au centre */
+}

@@ -104,6 +104,28 @@ h3{
 h2{
     color: rgb(17, 196, 62);
 }
+.session{
+    position: relative;
+    width: 60%;
+    height: 560px;
+    left: 20%;
+    top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+.imm{
+    height: 200px;
+    width: 20%;
+    border-radius: 100%;
+    position: relative;
+    left: 35%;
+    top: 3px;
+
+}
+.imm img{
+    position: relative;
+    right: 60%;
+}
 .compte{
     color: white;
     width: 100%;
@@ -111,13 +133,13 @@ h2{
     font-family: 'Iceberg', cursive;;
     font-size: 50px;
     position: relative;
-    top: 73px;
+    top: 3px;
 }
 .solde{
     width: 50%;
     position: relative;
     left: 25%;
-    top: 112px;
+    top: 12px;
     height: 100px;
 
 }
@@ -144,23 +166,23 @@ h2{
 
 .conv{
     background-color: rgb(0, 0, 0);
-    width: 15%;
+    width: 25%;
     border: 3px solid white;
     position: relative;
     height: 70px;
-    left: 28%;
-    top: 120px;
+    left: 18%;
+    top: 20px;
     justify-content: center;
     text-align: center;
 }
 
 .conv1{
     background-color: rgb(0, 0, 0);
-    width: 15%;
+    width: 25%;
     height: 70px;
     position: relative;
     left: 57%;
-    top: 40px;
+    top:-50px;
     border: 3px solid white;
     justify-content: center;
     text-align: center;
@@ -190,4 +212,437 @@ h2{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
+}
+
+
+@media screen and (min-width:650px) and (max-width:900px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(7, 5, 32);
+        
+    
+    }
+   
+    .y{
+        color: rgb(6, 207, 40);
+    }
+    .c{
+        color: rgb(6, 207, 40);
+    }
+    .i{
+        color: rgb(6, 207, 40);
+    }
+    .compte{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        top: 40px;
+        position: relative;
+    }
+    .compte img{
+        height: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    
+    .element1{
+        position: relative;
+        background-color: #000000;
+        width: 25%;
+        height: 70px;
+        font-size: 32px;
+        top: -22px;
+    }
+    .element1 a{
+        position: relative;
+        top: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .element2{
+        background-color: rgb(0, 0, 0);
+        width: 59%;
+        height: 70px;
+        position: relative;
+        top: -22px;
+    
+    }
+    .element2 a{
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+        left: -50px;
+    
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        padding-left: 3rem;
+    
+    }
+    .element3{
+        width: 16%;
+        height: 70px;
+        overflow: hidden;
+        position: relative;
+        top: -22px;
+    
+    }
+    .element3 a{
+        position: relative;
+        top: 25px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    
+    }
+    h3{
+        color: white;
+    }
+    h2{
+        color: rgb(17, 196, 62);
+        position: relative;
+        top: 40px;
+    }
+    .session{
+        position: relative;
+        width: 80%;
+        height: 560px;
+        left: 10%;
+        top: 10px;
+        justify-content: center;
+       text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        flex-wrap: wrap;
+    }
+    .imm{
+        height: 200px;
+        width: 20%;
+        border-radius: 100%;
+        position: relative;
+        left: 35%;
+        top: 3px;
+    
+    }
+    .imm img{
+        position: relative;
+    }
+    .compte{
+        color: white;
+        width: 100%;
+        height: 100px;
+        font-family: 'Iceberg', cursive;;
+        font-size: 50px;
+        position: relative;
+        top: 3px;
+    }
+    .solde{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        top: 1px;
+        height: 100px;
+    
+    }
+    .solde1{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        height: 50%;
+        font-size: 22px;
+        font-family: 'Iceberg', cursive;;
+    
+    
+    }
+    .solde2{
+        position: relative;
+        width: 100%;
+        font-family: 'Iceberg', cursive;;
+        text-align: center;
+        height: 50%;
+       
+    
+    }
+    
+    .conv{
+        background-color: rgb(0, 0, 0);
+        width: 25%;
+        border: 3px solid rgb(255, 255, 255);
+        position: relative;
+        height: 70px;
+        left: 18%;
+        top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .conv1{
+        background-color: rgb(0, 0, 0);
+        width: 25%;
+        height: 70px;
+        position: relative;
+        left: 57%;
+        top:-54px;
+        border: 3px solid white;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .conv1 p{
+        color: white;
+        position: relative;
+        top: 10px;
+        font-family: 'Iceberg', cursive;;
+    }
+    
+    .conv p{
+        color: white;
+        position: relative;
+        top: 10px;
+        font-family: 'Iceberg', cursive;;
+    }
+    
+    .conv p a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+     
+    }
+    .conv1 p a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:350px) and (max-width:651px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(7, 5, 32);
+        
+    
+    }
+   
+    .y{
+        color: rgb(6, 207, 40);
+    }
+    .c{
+        color: rgb(6, 207, 40);
+    }
+    .i{
+        color: rgb(6, 207, 40);
+    }
+    .compte{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        top: 40px;
+        position: relative;
+    }
+    .compte img{
+        height: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    
+    .element1{
+        position: relative;
+        background-color: #000000;
+        width: 25%;
+        height: 70px;
+        font-size: 32px;
+        top: -22px;
+    }
+    .element1 a{
+        position: relative;
+        top: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .element2{
+        background-color: rgb(0, 0, 0);
+        width: 59%;
+        height: 70px;
+        position: relative;
+        top: -22px;
+    
+    }
+    .element2 a{
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+        left: -50px;
+    
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        padding-left: 3rem;
+    
+    }
+    .element3{
+        width: 16%;
+        height: 70px;
+        overflow: hidden;
+        position: relative;
+        top: -22px;
+    
+    }
+    .element3 a{
+        position: relative;
+        top: 25px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    
+    }
+    h3{
+        color: white;
+    }
+    h2{
+        color: rgb(17, 196, 62);
+        position: relative;
+        top: 40px;
+    }
+    .session{
+        position: relative;
+        width: 80%;
+        height: 650px;
+        left: 10%;
+        top: 10px;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        flex-wrap: wrap;
+    }
+    .imm{
+        height: 200px;
+        width: 20%;
+        border-radius: 100%;
+        position: relative;
+        left: 25%;
+        top: 3px;
+    
+    }
+ 
+    .compte{
+        color: white;
+        width: 100%;
+        height: 100px;
+        font-family: 'Iceberg', cursive;;
+        font-size: 30px;
+        position: relative;
+        top: 3px;
+    }
+    .solde{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        top: -43px;
+        height: 100px;
+    
+    }
+    .solde1{
+        position: relative;
+        width: 100%;
+        background-color: aqua;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        height: 50%;
+        font-size: 22px;
+        font-family: 'Iceberg', cursive;;
+    
+    
+    }
+    .solde2{
+        position: relative;
+        width: 100%;
+        font-family: 'Iceberg', cursive;;
+        text-align: center;
+        height: 50%;
+       
+    
+    }
+    
+    .conv{
+        background-color: rgb(0, 0, 0);
+        width: 25%;
+        border: 3px solid rgb(255, 255, 255);
+        position: relative;
+        height: 70px;
+        left: 40%;
+        top: 130px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .conv1{
+        background-color: rgb(0, 0, 0);
+        width: 25%;
+        height: 70px;
+        position: relative;
+        left: 40%;
+        top:-54px;
+        border: 3px solid white;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .conv1 p{
+        color: white;
+        position: relative;
+        top: 10px;
+        font-family: 'Iceberg', cursive;;
+    }
+    
+    .conv p{
+        color: white;
+        position: relative;
+        top: 10px;
+        font-family: 'Iceberg', cursive;;
+    }
+    
+    .conv p a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+     
+    }
+    .conv1 p a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    
 }

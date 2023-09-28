@@ -15,7 +15,15 @@ body{
     text-align: center;
     padding-top: 20px;
 }
-
+.bergb{
+    display: none;
+}
+.bergb input{
+    display: none;
+}
+.bergb .hgfd{
+    display: none;
+}
 
 .element1{
     position: relative;
@@ -200,7 +208,7 @@ strong{
     height: 50px;
     display: flex;
     font-size: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(78, 42, 42);
     border-radius: 50px;
     position: relative;
     top: -1px;
@@ -219,6 +227,10 @@ strong{
     left: 40%;
     border-bottom: 3px solid white;
 }
+.inp4 button a{
+    text-decoration: none;
+    color: white;
+}
 .inp5{
     width: 20%;
     height: 50px;
@@ -231,11 +243,15 @@ strong{
     left: 40%;
     border-bottom: 3px solid white;
 }
-.inp4 a {
+.inp4 button {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     position: relative;
-    top: 15px;
+    width: 100%;
+    font-size: 18px;
+    background-color: black;
+    height: 100%;
+    border-radius: 30px;
 }
 .qwerty{
     position: relative;
@@ -259,13 +275,370 @@ input{
     background-color: rgb(0, 0, 0);
     color: white;
 }
-
-
-/* 
 #bit1{
-    width: 50%;
-    background-color: aquamarine;
-    border-radius: 0px 50px 50px 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
 
-} */
 
+@media screen and (min-width:592px) and (max-width:1000px){ 
+    #cool{
+        display: none;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.884);
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        width: 100%;
+
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+        width: 100%;
+        z-index: 1;
+        top: 90px;
+        border-radius: 15px;
+        background-color: rgba(8, 8, 36, 0.774);
+    } 
+    #ddd{
+        display: none;
+    }
+    .convert1{
+        width: 33%;
+        height: 150px;
+        position: relative;
+        border: 3px solid red;
+        display: flex;
+        background-color: white;
+    }
+    .val1 img{
+        height:110px;
+        float: right;
+        position: relative;
+        top: 20px;
+        left: -10px;
+    }
+    strong{
+        position: relative;
+        top: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+    .inp{
+        background-color: rgb(21, 21, 56);
+        width: 100%;
+        position: relative;
+        height: 300px;
+        top: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .inp1 input{
+        width: 75%;
+        height: 50px;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        color: rgb(255, 255, 255);
+        top: 30px;
+        border-bottom: 3px solid white;
+    }
+    
+    
+    .inp2 input{
+        width: 30%;
+        height: 50px;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        top: 50px;
+        left: 22%;
+        color: rgb(255, 255, 255);
+        border-bottom: 3px solid white;
+    }
+    .inpp{
+        position: relative;
+        width: 11%;
+        overflow: hidden;
+        display: flex;
+        left: 46%;
+        top: 120px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inpp img{
+        width: 50px;
+        left: 12%;
+        position: relative;
+    }
+    .inp3 {
+        width: 30%;
+        height: 50px;
+        display: flex;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        top: -1px;
+        left: 15%;
+        border-bottom: 3px solid white;
+    }
+    .inp4{
+        width: 30%;
+        height: 50px;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        top: 20px;
+        color: white;
+        left: 35%;
+        border-bottom: 3px solid white;
+    }
+    .inp5{
+        width: 20%;
+        height: 50px;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        top: 80px;
+        color: rgb(255, 255, 255);
+        left: 40%;
+        border-bottom: 3px solid white;
+    }
+    .inp4 button {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        position: relative;
+        width: 100%;
+        background-color: black;
+        height: 100%;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+
+    .sup{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:292px) and (max-width:593px){ 
+    #cool{
+        display: none;
+    }
+    #coll1{
+        display: none;
+    }
+    .convert1{
+        width: 63%;
+        height: 200px;
+        position: relative;
+        border: 3px solid red;
+        display: flex;
+        background-color: white;
+    }
+    .element1 a{
+        font-size: 20px;
+    }
+    .val1 img{
+        height:110px;
+        float: right;
+        position: relative;
+        top: 20px;
+        left: -10px;
+    }
+    strong{
+        position: relative;
+        top: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+    .inp{
+        background-color: rgb(21, 21, 56);
+        width: 100%;
+        position: relative;
+        height: 300px;
+        top: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .inp1 input{
+        width: 75%;
+        height: 50px;
+        font-size: 16px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        color: rgb(255, 255, 255);
+        top: 30px;
+        border-bottom: 3px solid white;
+    }
+    
+    
+    .inp2 input{
+        width: 75%;
+        height: 50px;
+        font-size: 16px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        top: 150px;
+        left: 0%;
+        color: rgb(255, 255, 255);
+        border-bottom: 3px solid white;
+    }
+    .inpp{
+        position: relative;
+        width: 11%;
+        overflow: hidden;
+        display: flex;
+        left: 46%;
+        top: 120px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inpp img{
+        width: 50px;
+        left: 12%;
+        position: relative;
+    }
+    .inp3 {
+        width: 75%;
+        height: 50px;
+        display: flex;
+        font-size: 20px;
+        background-color: rgb(44, 43, 43);
+        border-radius: 50px;
+        position: relative;
+        top: 15px;
+        left: 12%;
+        border-bottom: 3px solid white;
+    }
+    .inp4{
+        width: 75%;
+        height: 50px;
+        font-size: 20px;
+        background-color: rgb(75, 63, 63);
+        border-radius: 50px;
+        position: relative;
+        top: 120px;
+        color: white;
+        left: 12%;
+        border-bottom: 3px solid white;
+    }
+    .inp5{
+        width: 75%;
+        height: 50px;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50px;
+        position: relative;
+        top: 50px;
+        color: white;
+        left: 12%;
+        border-bottom: 3px solid white;
+    }
+    .inp4 button {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        position: relative;
+        width: 100%;
+        background-color: rgb(83, 66, 66);
+        height: 100%;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+
+  
+    .qwerty{
+        position: relative;
+        top: 40px;
+        left: 35%;
+        font-size: 2rem;
+        width: 100px; 
+        color: white;
+        height: 50px;
+    }
+    .bergb{
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.884);
+        position: relative;
+        top: 22px;
+        left: 90%;
+        display: block;
+    } 
+     .bergb input{
+        display: none;
+    }
+    .bergb .hgfd{
+        display: none;
+    }
+    .hgfd{
+        visibility: hidden;
+        opacity: 1;
+        position: fixed;
+        right: 10px;
+        width: 100%;
+
+    }
+   
+    .hgfd li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .hgfd li{
+        list-style-type: none;
+
+    }
+    #berg:checked ~ .hgfd{
+        visibility: visible;
+        display: block;
+        width: 100%;
+        z-index: 1;
+        top: 90px;
+        border-radius: 15px;
+        background-color: rgba(8, 8, 36, 0.774);
+    } 
+    #ddd{
+        display: none;
+    }   
+    .sup{
+        display: none;
+    }
+}

@@ -22,16 +22,6 @@ formul.addEventListener("submit", (e) =>{
     // let nom = document.querySelector("#nom").value
     // let mot_de_passe = document.querySelector("#mot_de_passe").value
 
-    if (document.querySelector("#nom").value ==="Anonymous" && document.querySelector("#mot_de_passe").value ==="Anonymous"){
-        alert("Bienvenus Anonymous !")
-        admin_Anonyme ={
-            nom:nom,
-            mot_de_passe:mot_de_passe
-        }
-        userlist.push(admin_Anonyme)
-        localStorage.setItem('tab_LS', JSON.stringify(userlist))
-        window.location.replace("../admin/adimn.html")
-    }
     
     
     userlist.push(user)

@@ -5,8 +5,24 @@ body{
   background-color: rgb(21, 21, 56);
 
 }
+.elle{
+  justify-content: center;
+  display: flex;
+  height: 35px;
+  color: white;
+  font-size: 23px;
+}
 
-
+.image{
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.image img{
+  height: 220px;
+  width: 20%;
+}
 table {
   color: white;
   width: 80%; /* Largeur de la table */

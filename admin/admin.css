@@ -11,17 +11,20 @@ body{
   height: 35px;
   color: white;
   font-size: 23px;
+  position: relative;
+  top: 10px;
 }
 
 .image{
-  height: 250px;
+  height: 220px;
   width: 100%;
   justify-content: center;
   display: flex;
 }
 .image img{
   height: 220px;
-  width: 20%;
+  width: 30%;
+  border-radius: 10%;
 }
 table {
   color: white;
@@ -32,12 +35,12 @@ table {
 }
 
 th, td {
-  border: 1px solid #333; /* Bordure autour des cellules */
+  border: 1px solid #ffffff; /* Bordure autour des cellules */
   padding: 10px; /* Espace à l'intérieur des cellules */
   text-align: center; /* Alignement du texte au centre */
 }
 
 th {
-  background-color: #613e753d; /* Couleur de fond pour les cellules d'en-tête */
+  background-color: #0000009f; /* Couleur de fond pour les cellules d'en-tête */
   color: #fff; /* Couleur du texte pour les cellules d'en-tête */
 }

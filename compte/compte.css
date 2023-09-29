@@ -51,12 +51,12 @@ body{
     background-color: #000000;
     width: 25%;
     height: 70px;
-    font-size: 32px;
     top: -22px;
 }
 .element1 a{
+    font-size: 26px;
     position: relative;
-    top: 15px;
+    top: 25px;
     text-decoration: none;
     color: white;
 }
@@ -107,11 +107,13 @@ h2{
 .session{
     position: relative;
     width: 60%;
-    height: 560px;
+    height: 400px;
     left: 20%;
     top: 10px;
-    border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
+}
+.session{
+    box-shadow: 1px 1px 3px 2px  rgb(57, 64, 95);
 }
 .imm{
     height: 200px;
@@ -149,7 +151,7 @@ h2{
     justify-content: center;
     text-align: center;
     height: 50%;
-    font-size: 22px;
+    font-size: 17px;
     font-family: 'Iceberg', cursive;;
 
 
@@ -530,7 +532,7 @@ h2{
         color: white;
     }
     h2{
-        color: rgb(17, 196, 62);
+        color: rgb(48, 175, 80);
         position: relative;
         top: 40px;
     }

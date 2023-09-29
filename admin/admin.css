@@ -1,12 +1,27 @@
-  /* Styles CSS pour la table */
-  table {
-    width: 400px; /* Largeur de la table */
-    border-collapse: collapse; /* Fusionner les bordures de cellules */
-    margin: 20px auto; /* Centrer la table sur la page */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(21, 21, 56);
+
+}
+
+
+table {
+  color: white;
+  width: 80%; /* Largeur de la table */
+  border-collapse: collapse; /* Fusionner les bordures de cellules */
+  margin: 20px auto; /* Centrer la table sur la page */
+  border: 2px solid #8f8585; /* Bordure autour de la table */
 }
 
 th, td {
-    border: 1px solid black; /* Bordures de cellules */
-    padding: 10px; /* Espace à l'intérieur des cellules */
-    text-align: center; /* Alignement du texte au centre */
+  border: 1px solid #333; /* Bordure autour des cellules */
+  padding: 10px; /* Espace à l'intérieur des cellules */
+  text-align: center; /* Alignement du texte au centre */
+}
+
+th {
+  background-color: #613e753d; /* Couleur de fond pour les cellules d'en-tête */
+  color: #fff; /* Couleur du texte pour les cellules d'en-tête */
 }

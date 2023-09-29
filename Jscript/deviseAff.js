@@ -5,7 +5,7 @@ let soldez = document.querySelector("#mon_solde")
 // soldez.innerHTML= AfficheInfose[AfficheInfose.length-1]
 let soldeValue= AfficheInfose[AfficheInfose.length-1]
 
-soldeValue += " USD";
+soldeValue += " TRX";
 
 soldez.textContent = soldeValue;
 

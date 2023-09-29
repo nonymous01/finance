@@ -13,16 +13,14 @@ button a{
 }
 .wwwww{
     position: relative;
-    top: 62px;
-    left: 12%;
+    bottom: 12px;
+    left: 1%;
     background-color: rgb(222, 225, 231);
 }
 .wwwww:hover{
     position: relative;
-    top: 62px;
-    left: 12%;
     box-shadow: 1px 1px 10px 1px  rgb(77, 95, 194);
-}
+} 
 .y{
     color: rgb(6, 207, 40);
 }
@@ -210,7 +208,7 @@ button{
     justify-content: left;
     display: flex;
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     left: 60px;
     font-family: 'Iceberg', cursive;;
 

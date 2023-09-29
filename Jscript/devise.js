@@ -6,8 +6,8 @@ convtron.addEventListener('input', ()=> {
     const tron = convtron.value
     const taux =  convtron.getAttribute('data-taux')
     const tronNombre = parseFloat(tron)
-    const usb = 12
-    const conversion = tronNombre * 12
+    const usb = 11.28
+    const conversion = tronNombre * 11.28
     
     let Afficher = JSON.parse(localStorage.getItem("bien")) ||[]
     let solde = conversion
